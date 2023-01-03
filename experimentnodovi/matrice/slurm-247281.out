@@ -1,0 +1,18 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/11.3.0 => GCCcore/10.3.0
+
+mpi_mm has started with 20 tasks.
+[gpu06][[28108,1],19][btl_ofi_module.c:78:mca_btl_ofi_add_procs] error receiving modex
+[gpu06][[28108,1],19][btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[28108,1],19]
+  Exit code:    1
+--------------------------------------------------------------------------
